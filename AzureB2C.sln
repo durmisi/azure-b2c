@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{C7C2A7DB-7CBF-41D7-81D9-F2BE53441AD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskServiceAPI", "WebAPI\TaskServiceAPI\TaskServiceAPI.csproj", "{FEBD0A38-D884-403D-89C5-1FEFE80BB550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GraphAPI", "GraphAPI", "{A149326D-93EA-45DF-9062-2CD1F0042A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskServiceAPIConsumer", "WebAPI\TaskServiceAPI_WebApp\TaskServiceAPIConsumer.csproj", "{549A3999-F8F1-4D25-94D1-E6A6981D3C0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Native", "Native", "{9488A7A0-66E6-4648-91B5-CC3C7197FD25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B2CGraphClient", "GraphAPI\B2CGraphClient\B2CGraphClient.csproj", "{6F5B6039-0952-4ECE-9584-ED1F1A253E24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskClient", "Native\TaskClient\TaskClient.csproj", "{005E6BB1-F422-4366-B548-1BDE150F0073}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEBD0A38-D884-403D-89C5-1FEFE80BB550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBD0A38-D884-403D-89C5-1FEFE80BB550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBD0A38-D884-403D-89C5-1FEFE80BB550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBD0A38-D884-403D-89C5-1FEFE80BB550}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549A3999-F8F1-4D25-94D1-E6A6981D3C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549A3999-F8F1-4D25-94D1-E6A6981D3C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549A3999-F8F1-4D25-94D1-E6A6981D3C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549A3999-F8F1-4D25-94D1-E6A6981D3C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F5B6039-0952-4ECE-9584-ED1F1A253E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F5B6039-0952-4ECE-9584-ED1F1A253E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F5B6039-0952-4ECE-9584-ED1F1A253E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F5B6039-0952-4ECE-9584-ED1F1A253E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{005E6BB1-F422-4366-B548-1BDE150F0073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{005E6BB1-F422-4366-B548-1BDE150F0073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{005E6BB1-F422-4366-B548-1BDE150F0073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{005E6BB1-F422-4366-B548-1BDE150F0073}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FEBD0A38-D884-403D-89C5-1FEFE80BB550} = {C7C2A7DB-7CBF-41D7-81D9-F2BE53441AD7}
+		{549A3999-F8F1-4D25-94D1-E6A6981D3C0D} = {C7C2A7DB-7CBF-41D7-81D9-F2BE53441AD7}
+		{6F5B6039-0952-4ECE-9584-ED1F1A253E24} = {A149326D-93EA-45DF-9062-2CD1F0042A94}
+		{005E6BB1-F422-4366-B548-1BDE150F0073} = {9488A7A0-66E6-4648-91B5-CC3C7197FD25}
+	EndGlobalSection
+EndGlobal
