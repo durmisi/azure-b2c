@@ -4,3 +4,4 @@ Azure Active Directory B2C is a comprehensive cloud identity management solution
 It is a highly available global service that scales to hundreds of millions of consumer identities. Built on an enterprise-grade secure platform, 
 Azure Active Directory B2C keeps your applications, your business, and your consumers protected.
 
+https://docs.microsoft.com/en-us/azure/active-directory-b2c/active-directory-b2c-overview
